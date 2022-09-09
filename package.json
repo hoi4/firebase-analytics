@@ -1,6 +1,6 @@
 {
   "name": "@hoi4/firebase-analytics",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "A native plugin for firebase analytics.",
   "homepage": "https://github.com/capacitor-community/firebase-analytics",
   "main": "dist/plugin.cjs.js",
@@ -42,7 +42,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorCommunityFirebaseAnalytics.podspec"
+    "Hoi4FirebaseAnalytics.podspec"
   ],
   "keywords": [
     "capacitor",
