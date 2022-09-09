@@ -23,6 +23,14 @@
 | ---------- | --------------------------------------- | ----------------------------------------- |
 | mesur.io   | [mesur-io](https://github.com/mesur-io) | [@mesur_io](https://twitter.com/mesur_io) |
 
+## Important Note
+
+This is a temporary fork from @capacitor-community/firebase-analytics (published as @hoi4/firebase-analytics).
+
+Applied updates from the fork:
+- Upgrade to Capacitor 4 (open PR in fork)
+- Removed fixed dependency version for Pod Firebase/Analytics (open PR by me in fork)
+
 ## Installation
 
 Using npm:
