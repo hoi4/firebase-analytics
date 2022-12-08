@@ -17,6 +17,10 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
+## <a id="breaking-changes"> ❗❗ Breaking changes when updating to ✏️v4.0.0✏️❗❗
+
+✏️✏️ This plugin now supports Capacitor 4 only. For Capacitor 3 please use version 1.0.1 ! ✏️✏️
+
 ## Maintainers
 
 | Maintainer | GitHub                                  | Social                                    |
@@ -218,6 +222,12 @@ Download the `GoogleService-Info.plist` file. In Xcode right-click on the yellow
 ### Android
 
 Download the `google-services.json` file and copy it to `android/app/` directory of your capacitor project.
+
+#### Variables
+
+This plugin will use the following project variables (defined in your app’s `variables.gradle` file):
+
+- `$firebaseAnalyticsVersion` version of `com.google.firebase:firebase-analytics` (default: `21.2.0`)
 
 ## iOS setup
 
